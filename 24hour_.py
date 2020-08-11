@@ -5,7 +5,7 @@ import discord
 
  
 
-token = "NzQyNzY2ODY0ODk1MTgwODcw.XzK5jA._ShkW4qkzmxz7V7BXNr1-S2FOwo"
+token = "NzQyNzY2ODY0ODk1MTgwODcw.XzK5jA.z4U16AloS4-gyWlrE88ZZv5VFxc"
 client = discord.Client()
 
 @client.event
