@@ -2,10 +2,11 @@
 # 가끔가다 애가 인코딩을 잘못 읽어서 오류를 냅니다. 그것을 대비하기 위해 'utf-8'으로 읽으라고 선언함
 
 import discord
+import os
 
  
-
-token = "NzQyNzY2ODY0ODk1MTgwODcw.XzK5jA.z4U16AloS4-gyWlrE88ZZv5VFxc"
+access_token = os.envirin["BOT_TOKEN"]
+token = "access_token"
 client = discord.Client()
 
 @client.event
@@ -50,6 +51,6 @@ client.run(token)
 
 
   
-
-client.run(token)
+access_token = os.envirin["BOT_TOKEN"]
+client.run(access_token)
 
